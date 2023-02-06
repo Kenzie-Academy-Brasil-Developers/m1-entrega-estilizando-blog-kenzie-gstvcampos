@@ -23,17 +23,18 @@ header {
     box-shadow: 1px 1px 4px var(--color-dark3);
     display: flex;
     align-items: center;
+    justify-content: center;
     font-weight: bold;
     font-size: 3em;
 }
 header div {
-    padding: 1rem 9vw;
+    padding: 1rem 5vw;
 }
 .box {
     border: 10px solid var(--color-purple);
     text-align: center;
     margin: 2%;
-    padding: 2%;
+    padding: 2% 2%;
     border-radius: 32px;
     opacity: 0.7;
 }
@@ -60,14 +61,19 @@ footer {
     background-color: var(--color-dark2);
     box-shadow: 1px 1px 1px 4px var(--color-dark3);
     display: flex;
-    align-items: center;
     padding: 4rem 16vw;
     font-size: 1em;
+    justify-content: center;
+    align-items: center;
+}
+footer div {
+    padding: 0 5%;
 }
 .msg-footer label {
     font-size: 2em;
 }
 .msg-footer input {
+    border-radius: 16px;
     height: 2em;
     width: 500px;
     font-size: 30px;
@@ -75,11 +81,8 @@ footer {
 .msg-footer button {
     background-color: var(--color-purple);
     font-weight: bold;
+    border-radius: 16px;
     height: 2em;
     width: 10em;
     font-size: 2em;
-}
-.footer-logo {
-    position: absolute;
-    padding-left: 70%;
 }
