@@ -15,6 +15,7 @@ body {
     font-family: 'Roboto', sans-serif;
     background-color: var(--color-dark1);
     color: var(--color-white);
+    height: 100vh;
 }
 header {
     color: var(--color-white);
